@@ -6,6 +6,7 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}", // Include pages folder (tailwind will work)
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}", // Include components folder
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}", // Include app folder 
+		"./src/features/**/*.{js,ts,jsx,tsx,mdx}", // Include features folder
   ],
   theme: {
   	extend: {

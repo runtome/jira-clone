@@ -1,10 +1,10 @@
-import exp from "node:constants"
+"use client"
+// need to imply that client use 
 
+import { SignInCard } from "@/features/auth/components/sign-in-card"
 const SignInPage = () => {
   return (
-    <div>
-      Sign In Page
-    </div>
+    <SignInCard />
   )
 }
 
